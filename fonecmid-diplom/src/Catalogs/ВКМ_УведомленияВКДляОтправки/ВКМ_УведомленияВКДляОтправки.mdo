@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f7d89b2-930b-4f16-83b8-0bd4aae9b260">
+  <producedTypes>
+    <objectType typeId="379e1bb7-d894-412a-be44-1270016e0c25" valueTypeId="c8aff526-12ef-43eb-9e73-42ffa449dc82"/>
+    <refType typeId="b9d724a9-b7a8-41d1-b2a6-e387eea1fa84" valueTypeId="02ccacb5-a37b-4418-bdf5-bd8a24fde3fc"/>
+    <selectionType typeId="cfecc42d-4715-492b-95f8-fdc4fc4229bc" valueTypeId="a0f3b9ab-fb5e-41fe-99b2-ccd23db5eb8a"/>
+    <listType typeId="c29120ba-b976-4d50-a8a7-d742c5293f05" valueTypeId="9311d0a2-978e-45fe-b9bb-4d565e9bea92"/>
+    <managerType typeId="cecec75f-37d0-47c2-ad71-9602578ca766" valueTypeId="7fc3a743-7f29-44ae-b642-237306e1f3c4"/>
+  </producedTypes>
+  <name>ВКМ_УведомленияВКДляОтправки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уведомления ВК для отправки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Уведомление ВК для отправки</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="6d6f28c5-edd8-458b-8768-4c270e9bd227">
+    <name>ТекстСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст сообщения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

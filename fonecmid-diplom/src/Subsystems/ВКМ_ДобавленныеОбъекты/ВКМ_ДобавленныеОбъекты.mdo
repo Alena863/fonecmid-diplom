@@ -10,4 +10,8 @@
   <content>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы</content>
   <content>Role.ВКМ_РаботаСДокументомОбслуживаниемКлиентов</content>
   <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
+  <content>Constant.ВКМ_ИдентификаторЧатаВК</content>
+  <content>Constant.ВКМ_ТокенСообществаВК</content>
+  <content>Catalog.ВКМ_УведомленияВКДляОтправки</content>
+  <content>ScheduledJob.ВКМ_ОтправкаУведомленийВК</content>
 </mdclass:Subsystem>

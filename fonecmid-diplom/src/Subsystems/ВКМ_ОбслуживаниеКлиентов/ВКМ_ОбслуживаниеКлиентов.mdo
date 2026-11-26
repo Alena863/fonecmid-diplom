@@ -8,4 +8,6 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Document.ВКМ_ОбслуживаниеКлиента</content>
+  <content>Constant.ВКМ_ИдентификаторЧатаВК</content>
+  <content>Constant.ВКМ_ТокенСообществаВК</content>
 </mdclass:Subsystem>
